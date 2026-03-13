@@ -329,7 +329,7 @@ export default function PCForge(){
 
     // Nav
     entered?React.createElement("div",{style:{position:"fixed",top:26,right:26,display:"flex",gap:12,zIndex:900}},
-      React.createElement(NB,{onClick:function(){sDk(!dk)},th:th,sn:sn,dk:dk},dk?"Su":"Mo"),
+      React.createElement(NB,{onClick:function(){sDk(!dk)},th:th,sn:sn,dk:dk},React.createElement("img",{src:dk?"https://image2url.com/r2/default/images/1773392039703-e54b1a88-511f-40cb-985c-657a7b4f03d3.png":"https://image2url.com/r2/default/images/1773392057486-bbfda216-7eec-4f12-814a-9b5778c0f063.png",alt:dk?"Dark mode":"Light mode",style:{width:20,height:20,filter:dk?"invert(1)":"none"}})),
       React.createElement(NB,{onClick:function(){sSO(!sO)},th:th,sn:sn,dk:dk},React.createElement("img",{src:"https://image2url.com/r2/default/images/1773391948037-dd4d1184-568d-4746-87fb-8612a33aeab0.png",alt:sO?"Sound on":"Sound off",style:{width:20,height:20,opacity:sO?1:0.4,filter:dk?"invert(1)":"none",transition:"opacity 0.3s "+E}})),
       React.createElement(NB,{onClick:function(){sCO(!cO)},badge:ct.length,th:th,sn:sn,dk:dk},React.createElement("img",{src:"https://image2url.com/r2/default/images/1773391973509-72dd86de-470e-4ca2-97d9-3cf17b9b84f5.png",alt:"Cart",style:{width:20,height:20,filter:dk?"invert(1)":"none"}})),
       React.createElement(NB,{onClick:function(){sMO(!mO)},th:th,sn:sn,dk:dk},mO?"X":"::")
