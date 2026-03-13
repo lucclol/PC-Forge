@@ -336,7 +336,7 @@ export default function PCForge(){
     ):null,
 
     // Dots
-    entered?React.createElement("div",{style:{position:"fixed",right:28,top:"50%",transform:"translateY(-50%)",zIndex:800,display:"flex",flexDirection:"column",gap:10}},pgs.map(function(_,i){return React.createElement("div",{key:i,onClick:function(){goDot(i)},onMouseEnter:function(){sn.h()},style:{width:i===pI?8:5,height:i===pI?8:5,borderRadius:"50%",background:i===pI?th.ac:th.mt,cursor:"pointer",transition:"all 0.3s "+E,opacity:i===pI?1:0.35}})})):null,
+    entered?React.createElement("div",{style:{position:"fixed",right:20,top:"50%",transform:"translateY(-50%)",zIndex:800,display:"flex",flexDirection:"column",gap:4}},pgs.map(function(_,i){return React.createElement("div",{key:i,onClick:function(){goDot(i)},onMouseEnter:function(){sn.h()},style:{width:36,height:36,borderRadius:"50%",background:"transparent",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",transition:"all 0.3s "+E}},React.createElement("div",{style:{width:i===pI?14:10,height:i===pI?14:10,borderRadius:"50%",background:i===pI?th.ac:th.mt,transition:"all 0.3s "+E,opacity:i===pI?1:0.45}}))})):null,
 
     // Toast
     tst?React.createElement("div",{style:{position:"fixed",bottom:32,left:"50%",transform:"translateX(-50%)",zIndex:999,background:th.gs,backdropFilter:"blur(16px)",WebkitBackdropFilter:"blur(16px)",border:"1px solid "+th.bd,padding:"12px 28px",fontFamily:F.n,fontSize:"0.78rem",fontWeight:600,color:th.ac,boxShadow:"0 4px 24px "+th.gl}},tst):null,
